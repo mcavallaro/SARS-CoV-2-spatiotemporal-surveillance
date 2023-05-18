@@ -7,8 +7,10 @@ doi:  URL:
 SARS-CoV-2 data were supplied under strict data protection protocols and cannot be redisributed. Here we include synthetic data to run the scripts. Usage:
 ```{r}
 rm(list=ls())
+devtools::install_github("mcavallaro/rancovr")
 
 # Read data
+library('readxl')
 source('read_data.r)
 
 # Create baseline matrices under the null model from data
@@ -19,6 +21,8 @@ source('create_matrices.r')
 source('rancover_exceed.r')
 
 # Plot
+library(viridisLite)
+library(sf)
 source("covid_exceed_map.r")
 ```
 

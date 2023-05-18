@@ -4,3 +4,22 @@ This repository contains R scripts used for the analysis presented in the paper
 Massimo Cavallaro, Louise Dyson, Matt J. Keeling. (2023) Spatio-temporal surveillance and early detection of SARS-CoV-2 variants of concern. MedRxiv. 
 doi:  URL:
 
+SARS-CoV-2 data were supplied under strict data protection protocols and cannot be redisributed. Here we include synthetic data to run the scripts. Usage:
+```{r}
+rm(list=ls())
+
+# Read data
+source('read_data.r)
+
+# Create baseline matrices under the null model from data
+source('create_matrices.r')
+# source('downsample_matrices.r') # optional
+
+# Generate the warning scores with `rancovr`
+source('rancover_exceed.r')
+
+# Plot
+source("covid_exceed_map.r")
+```
+
+

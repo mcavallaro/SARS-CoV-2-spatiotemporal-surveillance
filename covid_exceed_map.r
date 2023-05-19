@@ -6,7 +6,7 @@
 
 source('covid_exceed_map_utils.r')
 
-day_names = as.POSIXct('2022-2-21', '%Y-%m-%d', tz='GMT') - as.difftime(782:0,units='days')
+# day_names = as.POSIXct('2022-2-21', '%Y-%m-%d', tz='GMT') - as.difftime(782:0,units='days')
   
 source("ws_250-783_2022-08-31_mean_rincidence.R")
 
@@ -21,8 +21,8 @@ for (i in 21:532){
   plot_exceed_map3(
     ws.p = ws.p,
     ws.f = ws.f,
-    averages.p = r.incidence.p,
-    averages.f = r.incidence.f,
+    averages.p = r.average.p,
+    averages.f = r.average.f,
     baseline.matrix.p = baseline.matrix.p,
     observation.matrix.p = Positives,
     baseline.matrix.f = baseline.matrix.f,

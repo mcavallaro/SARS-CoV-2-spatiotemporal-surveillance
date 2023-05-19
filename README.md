@@ -21,7 +21,7 @@ source('read_data.r)
 source('create_matrices.r')
 # source('downsample_matrices.r') # optional
 
-# Generate the warning scores with `rancovr`
+# Generate and dump on file the warning scores with `rancovr`
 source('rancover_exceed.r')
 
 # Plot

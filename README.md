@@ -1,7 +1,7 @@
 # SARS-CoV-2-spatiotemporal-surveillance
 
 This repository contains R scripts used for the analysis presented in the paper
-Massimo Cavallaro, Louise Dyson, Mike Tildesley, Dan Todkill, and Matt J. Keeling. (2023) *Spatio-temporal surveillance and early detection of SARS-CoV-2 variants of concern: a retrospective analysis*. J. R. Soc. Interface. 20: 20230410. 20230410. DOI:[10.1098/rsif.2023.0410](https://doi.org/10.1098/rsif.2023.0410). MedRxiv: URL:[https://www.medrxiv.org/content/10.1101/2023.07.06.23292295](https://www.medrxiv.org/content/10.1101/2023.07.06.23292295).
+Massimo Cavallaro, Louise Dyson, Mike Tildesley, Dan Todkill, and Matt J. Keeling. (2023) *Spatio-temporal surveillance and early detection of SARS-CoV-2 variants of concern: a retrospective analysis*. J. R. Soc. Interface. 20: 20230410. 20230410. DOI:[https://doi.org/10.1098/rsif.2023.0410](10.1098/rsif.2023.0410). MedRxiv: URL:[https://www.medrxiv.org/content/10.1101/2023.07.06.23292295](https://www.medrxiv.org/content/10.1101/2023.07.06.23292295).
 
 
 ![](./Movie/Positive_and_negatives_244.png)
